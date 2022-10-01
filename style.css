@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    #container {
+        background: #f1f1f1;
+        width: 1080px;
+        margin: 0 auto;
+        height: 2400px;
+    }
+    .clearfix {
+        clear: both;
+    }
+
+        header {
+            background: #f1f1f1;
+            width: 1020px;
+            padding: 30px;
+        }
+            #logo {
+                float: left;
+                /*width: 1000px;*/
+            }
+                #logo img {
+                    width: 350px;
+                }
+            #login {
+                width: 250px;
+                background: #182b4c;
+                padding: 30px;
+                color: #fabb47;
+                font-size: 35px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                float: right;
+            }
+        main {}
+            #slider {
+                width: 1080px;
+                height: 1080px;
+                background: #182b4c;
+            }
+                h2 {
+                    color: #f1f1f1;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 80px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    padding-top: 100px;
+                }
+                #slider img {
+                    margin: 0 auto;
+                    width: 500px;
+                    padding: 0 300px;
+                }
